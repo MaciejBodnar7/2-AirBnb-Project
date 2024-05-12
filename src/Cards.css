@@ -1,8 +1,14 @@
 .cards-section {
-  height: 31dvh;
+  height: 33dvh;
 }
 
 .cards-div {
   width: 220px;
   height: fit-content;
+}
+
+#img-main {
+  width: 220px;
+  height: 294px;
+  border-radius: 1rem;
 }
