@@ -1,3 +1,8 @@
 .cards-section {
-  height: 40dvh;
+  height: 31dvh;
+}
+
+.cards-div {
+  width: 220px;
+  height: fit-content;
 }

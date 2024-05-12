@@ -3,8 +3,8 @@ import "./Cards.css"
 function Cards() {
   return (
     <>
-      <section className="cards-section w-11/12 mx-auto mt-16 text-gray-900">
-        <div className=" w-1/4 h-5/6">
+      <section className="cards-section w-11/12 mx-auto mt-16 text-gray-900 flex gap-6 overflow-x-scroll flex-grow-0 flex-shrink-0">
+        <div className="cards-div flex-grow-0 flex-shrink-0">
           <div className="w-full relative">
             <p className="bg-slate-200 w-fit absolute mt-2 ml-2 py-1 px-2 text-sm rounded-lg">SOLD OUT</p>
             <img src="../src/assets/image 12.png" alt="" className="w-full" />

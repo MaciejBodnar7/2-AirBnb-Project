@@ -15,7 +15,7 @@ function App() {
 
         <section className="mt-16 w-full text-gray-900">
           <h1 className="text-5xl font-bold">Online Experiences</h1>
-          <p className="mt-6 text-xl w-3/6 leading-6">
+          <p className="mt-6 text-xl leading-6">
             Join unique interactive activities led by <br /> one-of-a-kind hosts—all without leaving home.
           </p>
         </section>
