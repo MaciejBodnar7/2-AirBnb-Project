@@ -1,4 +1,10 @@
 #root {
+  margin: 0 auto;
+}
+
+nav div,
+main,
+section {
   max-width: 1280px;
   margin: 0 auto;
 }

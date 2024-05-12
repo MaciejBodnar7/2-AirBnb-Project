@@ -16,7 +16,7 @@ export default function CardsRender() {
     )
   })
   return (
-    <section className="cards-section w-11/12 mx-auto mt-16 text-gray-900 flex gap-6 overflow-x-scroll flex-grow-0 flex-shrink-0">
+    <section className="cards-section w-11/12 mx-auto mt-16 text-gray-900 flex gap-6 overflow-x-auto flex-grow-0 flex-shrink-0 flex-nowrap">
       {postArr}
     </section>
   )
