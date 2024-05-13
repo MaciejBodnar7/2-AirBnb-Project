@@ -5,7 +5,9 @@ function Cards(props) {
     <>
       <div className="cards-div flex-grow-0 flex-shrink-0">
         <div className="w-full relative">
-          <p className="bg-slate-200 w-fit absolute mt-2 ml-2 py-1 px-2 text-sm rounded-lg">{props.status}</p>
+          {props.status !== "OFFLINE" && (
+            <p className="bg-slate-200 w-fit absolute mt-2 ml-2 py-1 px-2 text-sm rounded-lg">{props.status}</p>
+          )}
           <img id="img-main" src={`../public/images/${props.img}`} alt="" className="w-full" />
         </div>
         <div className="flex mt-3">

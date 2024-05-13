@@ -5,6 +5,7 @@ export default function CardsRender() {
   const postArr = data.map(item => {
     return (
       <Cards
+        key={item.id}
         img={item.img}
         rating={item.rating}
         reviewCount={item.reviewCount}
